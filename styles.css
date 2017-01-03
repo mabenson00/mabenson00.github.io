@@ -6,6 +6,9 @@ main {
 h1 {
 	margin: 0 auto;
 	width: 200px;
+	border-bottom: 1px black solid;
+
+
 }
 
 label {
@@ -66,6 +69,26 @@ nav li a:hover {
     color: white;
 }
 
+#imagecontainer {
+	background-color: blue;
+	width: 460px;
+	height: 290px;
+	position: relative;
+}
+
+#image {
+	position: absolute;
+	left: 0;
+	right: 0;
+
+}
+
+#text {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+
+}
 @media screen and (max-width: 550px) {
   nav li a {
     font-size:1em;
