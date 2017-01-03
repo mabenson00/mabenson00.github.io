@@ -1,0 +1,97 @@
+main {
+	position: relative;
+	width: 70%;
+	left: 30%;
+}
+h1 {
+	margin: 0 auto;
+	width: 200px;
+	border-bottom: 1px black solid;
+
+
+}
+
+label {
+	font-size: .8em;
+	font-weight: strong;
+	font-family:  "Helvetica Neue", Helvetica, Arial, sans-serif
+
+}
+
+.reasons li {
+	border-style: solid;
+	border-width: 1px;
+	padding: 2px;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 50px;
+}
+
+
+/* Nav bar */
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding:0;
+	width: 25%;
+	background-color: #f1f1f1;
+	height: 100%;
+	position: fixed;
+	overflow:auto;
+
+
+}
+
+nav li a{
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	text-align:center;
+	font-size:1.4em;
+
+
+
+}
+
+
+nav li a:hover {
+	background-color: #555;
+	color: white;
+}
+
+.active{
+    background-color: #77D385;
+    color: white;
+}
+
+#imagecontainer {
+	background-color: blue;
+	width: 460px;
+	height: 290px;
+	position: relative;
+}
+
+#image {
+	position: absolute;
+	left: 0;
+	right: 0;
+
+}
+
+#text {
+	position: absolute;
+	left: 100px;
+	top: 100px;
+
+}
+@media screen and (max-width: 550px) {
+  nav li a {
+    font-size:1em;
+    padding: 8px 8px;
+  }
+}
