@@ -7,6 +7,7 @@ var highscore = localStorage.getItem("highscore");
 $('.high').html(highscore)
 $('.time').html(score)
 
+
 function getMultiplier() {
   if (score%10 >4 && score%10 <9) {
     multiplier=1.8
@@ -193,6 +194,7 @@ function keyDownHandler(e) {
         downPressed = true;
     }
     else if(e.keyCode == 32) {
+      $('#overlay').hide();
       run();
       timer()
     }
